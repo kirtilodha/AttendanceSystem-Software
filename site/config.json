@@ -1,0 +1,16 @@
+{
+  "params":
+  {
+    "local_server": "True",
+    "local_uri": "mysql://root:@localhost/attendance",
+    "prod_uri": "mysql://root:@localhost/attendance",
+    "gmail-user":"dummy",
+    "blog_name": "Coding",
+    "gmail-password": "dummy",
+    "about_text": "Hii I'm Kirti.",
+    "no_of_usn": 2,
+    "admin_user": "Kirti",
+    "admin_password": "hello",
+    "upload_location": "C:\\Users\\kirti\\PycharmProjects\\pythonProject"
+  }
+}

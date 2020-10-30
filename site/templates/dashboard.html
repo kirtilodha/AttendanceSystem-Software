@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div>
+      <a href="/logout"><button class="btn btn-primary">Logout</button></a>
+      </div>
+    <div >
+      {% for usn in usnlist %}
+      <h1>{{usn.usn}}</h1>
+
+      <a href="/present/{{usn.usn}}"><button type="submit" name="button">Present</button></a>
+
+      <a href="/absent/{{usn.usn}}">  <button type="button" name="button">Absent</button></a>
+      {% endfor %}
+      <div>
+        <hr>
+        <a class="btn btn-primary float-left" href="">&larr; Previous</a>
+        <a class="btn btn-primary float-right" href="">Next &rarr;</a>
+      </div>
+    </div>
+
+  </body>
+</html>
