@@ -3,23 +3,29 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+
   </head>
-  <body>
-    <div>
+  <body style="margin:300px 300px 100px 800px;">
+    <div >
       <a href="/logout"><button class="btn btn-primary">Logout</button></a>
       </div>
     <div >
-      {% for usn in usnlist %}
+      
+      {% for usn in sem %}
       <h1>{{usn.usn}}</h1>
 
       <a href="/present/{{usn.usn}}"><button type="submit" name="button">Present</button></a>
 
       <a href="/absent/{{usn.usn}}">  <button type="button" name="button">Absent</button></a>
       {% endfor %}
+      <br>
+      <br>
       <div>
-        <hr>
-        <a class="btn btn-primary float-left" href="">&larr; Previous</a>
-        <a class="btn btn-primary float-right" href="">Next &rarr;</a>
+
+        <form method="POST">
+        <a class="btn btn-primary float-left" href="{{prev}}">&larr; Previous</a>
+        <a class="btn btn-primary float-right" href="{{next}}">Next &rarr;</a>
+      </form>
       </div>
     </div>
 

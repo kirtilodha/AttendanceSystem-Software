@@ -8,9 +8,13 @@
     "blog_name": "Coding",
     "gmail-password": "dummy",
     "about_text": "Hii I'm Kirti.",
-    "no_of_usn": 2,
-    "admin_user": "Kirti",
-    "admin_password": "hello",
+    "no_of_usn": 1,
+    "admin_user1": "Kirti",
+    "admin_password1": "hello",
+    "admin_user2": "Riya",
+    "admin_password2": "hi",
+    "user2": "Divya",
+    "user2_pass": "hii",
     "upload_location": "C:\\Users\\kirti\\PycharmProjects\\pythonProject"
   }
 }
